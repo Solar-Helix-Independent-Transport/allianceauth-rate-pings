@@ -1,13 +1,13 @@
 from setuptools import setup, find_packages
-from aaprom import __version__
+from ratepings import __version__
 setup(
-    name="allianceauth-prometheus-exporter",
+    name="allianceauth-rate-pings",
     version=__version__,
     author="AaronKable",
     author_email="aaronkable@gamil.com",
     description="Export Alliance Auth metrics to Prometheus.",
     license="Apache",
-    keywords="allianceauth monitoring prometheus",
+    keywords="allianceauth rate bucket monitoring alerts",
     packages=find_packages(),
     install_requires=[
         "django-esi>=8.0.0b2"
